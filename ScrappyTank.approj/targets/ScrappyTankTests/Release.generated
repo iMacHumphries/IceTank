@@ -1,0 +1,753 @@
+{
+    "assets": [
+        {
+            "asset": "ScrappyTankTests/en.lproj/InfoPlist.strings", 
+            "target": "en.lproj/InfoPlist.strings"
+        }
+    ], 
+    "config": {
+        "APPLICATION_IDENTIFIER": "Marz_Software.ScrappyTankTests", 
+        "LONG_VERSION": "1", 
+        "SHORT_VERSION": "1.0", 
+        "TEMPLATE_VALUES": {
+            "EXECUTABLE_NAME": "ScrappyTankTests", 
+            "PRODUCT_NAME": "ScrappyTankTests"
+        }
+    }, 
+    "defines": {
+        "NS_BLOCK_ASSERTIONS": 1, 
+        "__IPHONE_OS_VERSION_MIN_REQUIRED": 70100
+    }, 
+    "deps": [
+        "UIKit", 
+        "Twitter", 
+        "Social", 
+        "PassKit", 
+        "MobileCoreServices", 
+        "MessageUI", 
+        "iAd", 
+        "SystemConfiguration", 
+        "QuartzCore", 
+        "MediaPlayer", 
+        "EventKitUI", 
+        "EventKit", 
+        "CoreTelephony", 
+        "CoreLocation", 
+        "AdSupport", 
+        "Security", 
+        "StoreKit", 
+        "AudioToolbox", 
+        "AVFoundation", 
+        "SpeechKit", 
+        "CoreMotion", 
+        "CoreGraphics", 
+        "UIKit", 
+        "GameKit", 
+        "SpriteKit", 
+        "Foundation", 
+        "XCTest", 
+        "XCTest", 
+        "UIKit", 
+        "Foundation"
+    ], 
+    "flags": [
+        "-fobjc-arc", 
+        "-fasm-blocks", 
+        {
+            "flag": "-std=gnu99", 
+            "not_type": "c++"
+        }, 
+        {
+            "flag": "-fgnu-keywords", 
+            "not_type": "c++"
+        }, 
+        "-fno-asm", 
+        "-fpascal-strings", 
+        "-Wempty-body", 
+        "-Wshorten-64-to-32", 
+        "-Wno-deprecated-declarations", 
+        "-Wswitch", 
+        "-Wparentheses", 
+        "-Wformat", 
+        "-Wunused-function", 
+        "-Wunused-value", 
+        "-Wunused-variable", 
+        {
+            "flag": "-Winvalid-offsetof", 
+            "type": "c++"
+        }, 
+        {
+            "flag": "-Wprotocol", 
+            "type": "objc"
+        }, 
+        {
+            "flag": "-Wundeclared-selector", 
+            "type": "objc"
+        }
+    ], 
+    "header_paths": [
+        {
+            "header_path": "ScrappyTankTests-generated-files.hmap", 
+            "hmap": {}, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "ScrappyTankTests-own-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "ScrappyTankTests-all-target-headers.hmap", 
+            "hmap": {}, 
+            "type": "I"
+        }, 
+        {
+            "header_path": "ScrappyTankTests-project-headers.hmap", 
+            "hmap": {
+                "AppDelegate.h": {
+                    "key": "AppDelegate.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "AppDelegate.h"
+                }, 
+                "DetailViewController.h": {
+                    "key": "DetailViewController.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "DetailViewController.h"
+                }, 
+                "GADAdMobExtras.h": {
+                    "key": "GADAdMobExtras.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADAdMobExtras.h"
+                }, 
+                "GADAdNetworkExtras.h": {
+                    "key": "GADAdNetworkExtras.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADAdNetworkExtras.h"
+                }, 
+                "GADAdSize.h": {
+                    "key": "GADAdSize.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADAdSize.h"
+                }, 
+                "GADBannerView.h": {
+                    "key": "GADBannerView.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADBannerView.h"
+                }, 
+                "GADBannerViewDelegate.h": {
+                    "key": "GADBannerViewDelegate.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADBannerViewDelegate.h"
+                }, 
+                "GADInterstitial.h": {
+                    "key": "GADInterstitial.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADInterstitial.h"
+                }, 
+                "GADInterstitialDelegate.h": {
+                    "key": "GADInterstitialDelegate.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADInterstitialDelegate.h"
+                }, 
+                "GADRequest.h": {
+                    "key": "GADRequest.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADRequest.h"
+                }, 
+                "GADRequestError.h": {
+                    "key": "GADRequestError.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/SDK/", 
+                    "suffix": "GADRequestError.h"
+                }, 
+                "IAPHelper.h": {
+                    "key": "IAPHelper.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "IAPHelper.h"
+                }, 
+                "MMAdView.h": {
+                    "key": "MMAdView.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/Millennial/SDK/", 
+                    "suffix": "MMAdView.h"
+                }, 
+                "MMInterstitial.h": {
+                    "key": "MMInterstitial.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/Millennial/SDK/", 
+                    "suffix": "MMInterstitial.h"
+                }, 
+                "MMRequest.h": {
+                    "key": "MMRequest.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/Millennial/SDK/", 
+                    "suffix": "MMRequest.h"
+                }, 
+                "MMSDK.h": {
+                    "key": "MMSDK.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/Millennial/SDK/", 
+                    "suffix": "MMSDK.h"
+                }, 
+                "MPAdAlertGestureRecognizer.h": {
+                    "key": "MPAdAlertGestureRecognizer.h", 
+                    "prefix": "MoPubSDK/Internal/Common/AdAlerts/", 
+                    "suffix": "MPAdAlertGestureRecognizer.h"
+                }, 
+                "MPAdAlertManager.h": {
+                    "key": "MPAdAlertManager.h", 
+                    "prefix": "MoPubSDK/Internal/Common/AdAlerts/", 
+                    "suffix": "MPAdAlertManager.h"
+                }, 
+                "MPAdBrowserController.h": {
+                    "key": "MPAdBrowserController.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPAdBrowserController.h"
+                }, 
+                "MPAdConfiguration.h": {
+                    "key": "MPAdConfiguration.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPAdConfiguration.h"
+                }, 
+                "MPAdConversionTracker.h": {
+                    "key": "MPAdConversionTracker.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPAdConversionTracker.h"
+                }, 
+                "MPAdDestinationDisplayAgent.h": {
+                    "key": "MPAdDestinationDisplayAgent.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPAdDestinationDisplayAgent.h"
+                }, 
+                "MPAdServerCommunicator.h": {
+                    "key": "MPAdServerCommunicator.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPAdServerCommunicator.h"
+                }, 
+                "MPAdServerURLBuilder.h": {
+                    "key": "MPAdServerURLBuilder.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPAdServerURLBuilder.h"
+                }, 
+                "MPAdView.h": {
+                    "key": "MPAdView.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPAdView.h"
+                }, 
+                "MPAdWebView.h": {
+                    "key": "MPAdWebView.h", 
+                    "prefix": "MoPubSDK/Internal/HTML/", 
+                    "suffix": "MPAdWebView.h"
+                }, 
+                "MPAdWebViewAgent.h": {
+                    "key": "MPAdWebViewAgent.h", 
+                    "prefix": "MoPubSDK/Internal/HTML/", 
+                    "suffix": "MPAdWebViewAgent.h"
+                }, 
+                "MPAnalyticsTracker.h": {
+                    "key": "MPAnalyticsTracker.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPAnalyticsTracker.h"
+                }, 
+                "MPBannerAdManager.h": {
+                    "key": "MPBannerAdManager.h", 
+                    "prefix": "MoPubSDK/Internal/Banners/", 
+                    "suffix": "MPBannerAdManager.h"
+                }, 
+                "MPBannerAdManagerDelegate.h": {
+                    "key": "MPBannerAdManagerDelegate.h", 
+                    "prefix": "MoPubSDK/Internal/Banners/", 
+                    "suffix": "MPBannerAdManagerDelegate.h"
+                }, 
+                "MPBannerCustomEvent.h": {
+                    "key": "MPBannerCustomEvent.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPBannerCustomEvent.h"
+                }, 
+                "MPBannerCustomEventAdapter.h": {
+                    "key": "MPBannerCustomEventAdapter.h", 
+                    "prefix": "MoPubSDK/Internal/Banners/", 
+                    "suffix": "MPBannerCustomEventAdapter.h"
+                }, 
+                "MPBannerCustomEventDelegate.h": {
+                    "key": "MPBannerCustomEventDelegate.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPBannerCustomEventDelegate.h"
+                }, 
+                "MPBaseBannerAdapter.h": {
+                    "key": "MPBaseBannerAdapter.h", 
+                    "prefix": "MoPubSDK/Internal/Banners/", 
+                    "suffix": "MPBaseBannerAdapter.h"
+                }, 
+                "MPBaseInterstitialAdapter.h": {
+                    "key": "MPBaseInterstitialAdapter.h", 
+                    "prefix": "MoPubSDK/Internal/Interstitials/", 
+                    "suffix": "MPBaseInterstitialAdapter.h"
+                }, 
+                "MPConstants.h": {
+                    "key": "MPConstants.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPConstants.h"
+                }, 
+                "MPCoreInstanceProvider.h": {
+                    "key": "MPCoreInstanceProvider.h", 
+                    "prefix": "MoPubSDK/Internal/", 
+                    "suffix": "MPCoreInstanceProvider.h"
+                }, 
+                "MPDiskLRUCache.h": {
+                    "key": "MPDiskLRUCache.h", 
+                    "prefix": "MoPubSDK/Native Ads/Internal/", 
+                    "suffix": "MPDiskLRUCache.h"
+                }, 
+                "MPError.h": {
+                    "key": "MPError.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPError.h"
+                }, 
+                "MPFacebookKeywordProvider.h": {
+                    "key": "MPFacebookKeywordProvider.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPFacebookKeywordProvider.h"
+                }, 
+                "MPGlobal.h": {
+                    "key": "MPGlobal.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPGlobal.h"
+                }, 
+                "MPGoogleAdMobBannerCustomEvent.h": {
+                    "key": "MPGoogleAdMobBannerCustomEvent.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/", 
+                    "suffix": "MPGoogleAdMobBannerCustomEvent.h"
+                }, 
+                "MPGoogleAdMobInterstitialCustomEvent.h": {
+                    "key": "MPGoogleAdMobInterstitialCustomEvent.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/GoogleAdMob/", 
+                    "suffix": "MPGoogleAdMobInterstitialCustomEvent.h"
+                }, 
+                "MPHTMLBannerCustomEvent.h": {
+                    "key": "MPHTMLBannerCustomEvent.h", 
+                    "prefix": "MoPubSDK/Internal/HTML/", 
+                    "suffix": "MPHTMLBannerCustomEvent.h"
+                }, 
+                "MPHTMLInterstitialCustomEvent.h": {
+                    "key": "MPHTMLInterstitialCustomEvent.h", 
+                    "prefix": "MoPubSDK/Internal/HTML/", 
+                    "suffix": "MPHTMLInterstitialCustomEvent.h"
+                }, 
+                "MPHTMLInterstitialViewController.h": {
+                    "key": "MPHTMLInterstitialViewController.h", 
+                    "prefix": "MoPubSDK/Internal/HTML/", 
+                    "suffix": "MPHTMLInterstitialViewController.h"
+                }, 
+                "MPIdentityProvider.h": {
+                    "key": "MPIdentityProvider.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPIdentityProvider.h"
+                }, 
+                "MPImageDownloadQueue.h": {
+                    "key": "MPImageDownloadQueue.h", 
+                    "prefix": "MoPubSDK/Native Ads/Internal/", 
+                    "suffix": "MPImageDownloadQueue.h"
+                }, 
+                "MPInstanceProvider.h": {
+                    "key": "MPInstanceProvider.h", 
+                    "prefix": "MoPubSDK/Internal/", 
+                    "suffix": "MPInstanceProvider.h"
+                }, 
+                "MPInterstitialAdController.h": {
+                    "key": "MPInterstitialAdController.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPInterstitialAdController.h"
+                }, 
+                "MPInterstitialAdManager.h": {
+                    "key": "MPInterstitialAdManager.h", 
+                    "prefix": "MoPubSDK/Internal/Interstitials/", 
+                    "suffix": "MPInterstitialAdManager.h"
+                }, 
+                "MPInterstitialAdManagerDelegate.h": {
+                    "key": "MPInterstitialAdManagerDelegate.h", 
+                    "prefix": "MoPubSDK/Internal/Interstitials/", 
+                    "suffix": "MPInterstitialAdManagerDelegate.h"
+                }, 
+                "MPInterstitialCustomEvent.h": {
+                    "key": "MPInterstitialCustomEvent.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPInterstitialCustomEvent.h"
+                }, 
+                "MPInterstitialCustomEventAdapter.h": {
+                    "key": "MPInterstitialCustomEventAdapter.h", 
+                    "prefix": "MoPubSDK/Internal/Interstitials/", 
+                    "suffix": "MPInterstitialCustomEventAdapter.h"
+                }, 
+                "MPInterstitialCustomEventDelegate.h": {
+                    "key": "MPInterstitialCustomEventDelegate.h", 
+                    "prefix": "MoPubSDK/", 
+                    "suffix": "MPInterstitialCustomEventDelegate.h"
+                }, 
+                "MPInterstitialViewController.h": {
+                    "key": "MPInterstitialViewController.h", 
+                    "prefix": "MoPubSDK/Internal/Interstitials/", 
+                    "suffix": "MPInterstitialViewController.h"
+                }, 
+                "MPKeywordProvider.h": {
+                    "key": "MPKeywordProvider.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPKeywordProvider.h"
+                }, 
+                "MPLastResortDelegate+EventKit.h": {
+                    "key": "MPLastResortDelegate+EventKit.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPLastResortDelegate+EventKit.h"
+                }, 
+                "MPLastResortDelegate.h": {
+                    "key": "MPLastResortDelegate.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPLastResortDelegate.h"
+                }, 
+                "MPLegacyBannerCustomEventAdapter.h": {
+                    "key": "MPLegacyBannerCustomEventAdapter.h", 
+                    "prefix": "MoPubSDK/Internal/Banners/", 
+                    "suffix": "MPLegacyBannerCustomEventAdapter.h"
+                }, 
+                "MPLegacyInterstitialCustomEventAdapter.h": {
+                    "key": "MPLegacyInterstitialCustomEventAdapter.h", 
+                    "prefix": "MoPubSDK/Internal/Interstitials/", 
+                    "suffix": "MPLegacyInterstitialCustomEventAdapter.h"
+                }, 
+                "MPLogging.h": {
+                    "key": "MPLogging.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPLogging.h"
+                }, 
+                "MPMRAIDBannerCustomEvent.h": {
+                    "key": "MPMRAIDBannerCustomEvent.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MPMRAIDBannerCustomEvent.h"
+                }, 
+                "MPMRAIDInterstitialCustomEvent.h": {
+                    "key": "MPMRAIDInterstitialCustomEvent.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MPMRAIDInterstitialCustomEvent.h"
+                }, 
+                "MPMRAIDInterstitialViewController.h": {
+                    "key": "MPMRAIDInterstitialViewController.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MPMRAIDInterstitialViewController.h"
+                }, 
+                "MPMillennialBannerCustomEvent.h": {
+                    "key": "MPMillennialBannerCustomEvent.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/Millennial/", 
+                    "suffix": "MPMillennialBannerCustomEvent.h"
+                }, 
+                "MPMillennialInterstitialCustomEvent.h": {
+                    "key": "MPMillennialInterstitialCustomEvent.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/Millennial/", 
+                    "suffix": "MPMillennialInterstitialCustomEvent.h"
+                }, 
+                "MPNativeAd+Internal.h": {
+                    "key": "MPNativeAd+Internal.h", 
+                    "prefix": "MoPubSDK/Native Ads/Internal/", 
+                    "suffix": "MPNativeAd+Internal.h"
+                }, 
+                "MPNativeAd.h": {
+                    "key": "MPNativeAd.h", 
+                    "prefix": "MoPubSDK/Native Ads/", 
+                    "suffix": "MPNativeAd.h"
+                }, 
+                "MPNativeAdError.h": {
+                    "key": "MPNativeAdError.h", 
+                    "prefix": "MoPubSDK/Native Ads/", 
+                    "suffix": "MPNativeAdError.h"
+                }, 
+                "MPNativeAdRendering.h": {
+                    "key": "MPNativeAdRendering.h", 
+                    "prefix": "MoPubSDK/Native Ads/", 
+                    "suffix": "MPNativeAdRendering.h"
+                }, 
+                "MPNativeAdRequest.h": {
+                    "key": "MPNativeAdRequest.h", 
+                    "prefix": "MoPubSDK/Native Ads/", 
+                    "suffix": "MPNativeAdRequest.h"
+                }, 
+                "MPNativeAdRequestTargeting.h": {
+                    "key": "MPNativeAdRequestTargeting.h", 
+                    "prefix": "MoPubSDK/Native Ads/", 
+                    "suffix": "MPNativeAdRequestTargeting.h"
+                }, 
+                "MPNativeCache.h": {
+                    "key": "MPNativeCache.h", 
+                    "prefix": "MoPubSDK/Native Ads/Internal/", 
+                    "suffix": "MPNativeCache.h"
+                }, 
+                "MPPrivateBannerCustomEventDelegate.h": {
+                    "key": "MPPrivateBannerCustomEventDelegate.h", 
+                    "prefix": "MoPubSDK/Internal/Banners/", 
+                    "suffix": "MPPrivateBannerCustomEventDelegate.h"
+                }, 
+                "MPPrivateInterstitialCustomEventDelegate.h": {
+                    "key": "MPPrivateInterstitialCustomEventDelegate.h", 
+                    "prefix": "MoPubSDK/Internal/Interstitials/", 
+                    "suffix": "MPPrivateInterstitialCustomEventDelegate.h"
+                }, 
+                "MPProgressOverlayView.h": {
+                    "key": "MPProgressOverlayView.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPProgressOverlayView.h"
+                }, 
+                "MPReachability.h": {
+                    "key": "MPReachability.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPReachability.h"
+                }, 
+                "MPSessionTracker.h": {
+                    "key": "MPSessionTracker.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPSessionTracker.h"
+                }, 
+                "MPStoreKitProvider.h": {
+                    "key": "MPStoreKitProvider.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPStoreKitProvider.h"
+                }, 
+                "MPTableViewAdManager.h": {
+                    "key": "MPTableViewAdManager.h", 
+                    "prefix": "MoPubSDK/Native Ads/", 
+                    "suffix": "MPTableViewAdManager.h"
+                }, 
+                "MPTableViewCellImpressionTracker.h": {
+                    "key": "MPTableViewCellImpressionTracker.h", 
+                    "prefix": "MoPubSDK/Native Ads/Internal/", 
+                    "suffix": "MPTableViewCellImpressionTracker.h"
+                }, 
+                "MPTimer.h": {
+                    "key": "MPTimer.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/", 
+                    "suffix": "MPTimer.h"
+                }, 
+                "MPURLResolver.h": {
+                    "key": "MPURLResolver.h", 
+                    "prefix": "MoPubSDK/Internal/Common/", 
+                    "suffix": "MPURLResolver.h"
+                }, 
+                "MPiAdBannerCustomEvent.h": {
+                    "key": "MPiAdBannerCustomEvent.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/iAd/", 
+                    "suffix": "MPiAdBannerCustomEvent.h"
+                }, 
+                "MPiAdInterstitialCustomEvent.h": {
+                    "key": "MPiAdInterstitialCustomEvent.h", 
+                    "prefix": "MoPubSDK/AdNetworkSupport/iAd/", 
+                    "suffix": "MPiAdInterstitialCustomEvent.h"
+                }, 
+                "MRAdView+Controllers.h": {
+                    "key": "MRAdView+Controllers.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRAdView+Controllers.h"
+                }, 
+                "MRAdView.h": {
+                    "key": "MRAdView.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRAdView.h"
+                }, 
+                "MRAdViewDisplayController.h": {
+                    "key": "MRAdViewDisplayController.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRAdViewDisplayController.h"
+                }, 
+                "MRBundleManager.h": {
+                    "key": "MRBundleManager.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRBundleManager.h"
+                }, 
+                "MRCalendarManager.h": {
+                    "key": "MRCalendarManager.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRCalendarManager.h"
+                }, 
+                "MRCommand.h": {
+                    "key": "MRCommand.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRCommand.h"
+                }, 
+                "MRDimmingView.h": {
+                    "key": "MRDimmingView.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRDimmingView.h"
+                }, 
+                "MRImageDownloader.h": {
+                    "key": "MRImageDownloader.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRImageDownloader.h"
+                }, 
+                "MRJavaScriptEventEmitter.h": {
+                    "key": "MRJavaScriptEventEmitter.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRJavaScriptEventEmitter.h"
+                }, 
+                "MRPictureManager.h": {
+                    "key": "MRPictureManager.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRPictureManager.h"
+                }, 
+                "MRProperty.h": {
+                    "key": "MRProperty.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRProperty.h"
+                }, 
+                "MRVideoPlayerManager.h": {
+                    "key": "MRVideoPlayerManager.h", 
+                    "prefix": "MoPubSDK/Internal/MRAID/", 
+                    "suffix": "MRVideoPlayerManager.h"
+                }, 
+                "MyScene.h": {
+                    "key": "MyScene.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "MyScene.h"
+                }, 
+                "NSJSONSerialization+MPAdditions.h": {
+                    "key": "NSJSONSerialization+MPAdditions.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/Categories/", 
+                    "suffix": "NSJSONSerialization+MPAdditions.h"
+                }, 
+                "NSURL+MPAdditions.h": {
+                    "key": "NSURL+MPAdditions.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/Categories/", 
+                    "suffix": "NSURL+MPAdditions.h"
+                }, 
+                "SKCoin.h": {
+                    "key": "SKCoin.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKCoin.h"
+                }, 
+                "SKFish.h": {
+                    "key": "SKFish.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKFish.h"
+                }, 
+                "SKGameOverMenu.h": {
+                    "key": "SKGameOverMenu.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKGameOverMenu.h"
+                }, 
+                "SKIceHole.h": {
+                    "key": "SKIceHole.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKIceHole.h"
+                }, 
+                "SKInstructions.h": {
+                    "key": "SKInstructions.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKInstructions.h"
+                }, 
+                "SKMenu.h": {
+                    "key": "SKMenu.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKMenu.h"
+                }, 
+                "SKMine.h": {
+                    "key": "SKMine.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKMine.h"
+                }, 
+                "SKMissile.h": {
+                    "key": "SKMissile.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKMissile.h"
+                }, 
+                "SKScoreBoard.h": {
+                    "key": "SKScoreBoard.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKScoreBoard.h"
+                }, 
+                "SKTiltTank.h": {
+                    "key": "SKTiltTank.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKTiltTank.h"
+                }, 
+                "SKbackgroudNode.h": {
+                    "key": "SKbackgroudNode.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "SKbackgroudNode.h"
+                }, 
+                "ScrappyTank-Prefix.pch": {
+                    "key": "ScrappyTank-Prefix.pch", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "ScrappyTank-Prefix.pch"
+                }, 
+                "StoreTableViewController.h": {
+                    "key": "StoreTableViewController.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "StoreTableViewController.h"
+                }, 
+                "UIImageView+MPNativeAd.h": {
+                    "key": "UIImageView+MPNativeAd.h", 
+                    "prefix": "MoPubSDK/Native Ads/Internal/Categories/", 
+                    "suffix": "UIImageView+MPNativeAd.h"
+                }, 
+                "UITableViewCell+MPNativeAd.h": {
+                    "key": "UITableViewCell+MPNativeAd.h", 
+                    "prefix": "MoPubSDK/Native Ads/Internal/Categories/", 
+                    "suffix": "UITableViewCell+MPNativeAd.h"
+                }, 
+                "UIViewController+MPAdditions.h": {
+                    "key": "UIViewController+MPAdditions.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/Categories/", 
+                    "suffix": "UIViewController+MPAdditions.h"
+                }, 
+                "UIWebView+MPAdditions.h": {
+                    "key": "UIWebView+MPAdditions.h", 
+                    "prefix": "MoPubSDK/Internal/Utility/Categories/", 
+                    "suffix": "UIWebView+MPAdditions.h"
+                }, 
+                "ViewController.h": {
+                    "key": "ViewController.h", 
+                    "prefix": "ScrappyTank/", 
+                    "suffix": "ViewController.h"
+                }, 
+                "productIAPHelper.h": {
+                    "key": "productIAPHelper.h", 
+                    "prefix": "./", 
+                    "suffix": "productIAPHelper.h"
+                }
+            }, 
+            "type": "iquote"
+        }, 
+        {
+            "header_path": "/var/folders/zc/5y42v_7s3dq0b3wq9s8vjj9c0000gn/T/tmpgyFEFm/BUILT_PRODUCTS_DIR/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/zc/5y42v_7s3dq0b3wq9s8vjj9c0000gn/T/tmpgyFEFm/DERIVED_FILE_DIR/armv7", 
+            "type": "I"
+        }, 
+        {
+            "header_path": "/var/folders/zc/5y42v_7s3dq0b3wq9s8vjj9c0000gn/T/tmpgyFEFm/DERIVED_FILE_DIR", 
+            "type": "I"
+        }
+    ], 
+    "infoplists": [
+        "./ScrappyTankTests/ScrappyTankTests-Info.plist"
+    ], 
+    "libs": [
+        "GoogleAdMobAds", 
+        "MMSDK_5.1.1"
+    ], 
+    "modules": [], 
+    "pchs": [
+        "./ScrappyTank/ScrappyTank-Prefix.pch"
+    ], 
+    "sources": [
+        {
+            "defines": {}, 
+            "flags": [], 
+            "header_paths": [], 
+            "language": "objc", 
+            "source": "ScrappyTankTests/ScrappyTankTests.m"
+        }
+    ], 
+    "storyboards": [], 
+    "type": "com.apple.product-type.bundle.unit-test", 
+    "version": "3", 
+    "xcdatamodels": [], 
+    "xcode_project": "ScrappyTank.xcodeproj", 
+    "xibs": []
+}
